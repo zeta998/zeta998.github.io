@@ -1,0 +1,55 @@
+.sousuolan{
+    position: absolute;
+    top: 150px;
+    left: 50%;
+    width: 600px;
+    height: 40px;
+    margin-left: -300px;
+}
+.sousuolan .sousuokuang{
+    padding:0 40px 0 15px;
+}
+.sousuokuang{
+    position: absolute;
+    top: 0;
+    left: 150px;
+    width: 300px;
+    height: 40px;
+    border-radius: 16px;
+    background-color:rgba(255, 255, 255,0.5);
+    border: 1px solid transparent;
+    transition: all 0.2s linear;
+    transform-origin:center center;
+}
+.sousuolan:hover .sousuokuang{
+    /* transform:translateX(-150px) scaleX(1); */
+    background-color:rgba(255, 255, 255,0.8);
+    /* width: 600px; */
+    border: 1px solid transparent;
+}
+
+.sousuokuang:focus{
+    /* transform:translateX(-150px) scaleX(1); */
+    background-color:rgba(255, 255, 255,0.8);
+    /* width: 600px; */
+    border: 1px solid transparent;
+}
+.baidu{
+    position: absolute;
+    top: 0px;
+    right: 150px;
+    width: 40px;
+    height: 40px;
+    border-radius: 19px;
+    font-family:'icomoon' !important;
+    font-size: 20px;
+    transition: all 0.2s linear;
+    background-color: transparent;
+    cursor:pointer;
+}
+/* .sousuolan:hover .baidu{
+    right: 0;
+} */
+.sousuokuang:focus .baidu{
+    right: 0;
+}
